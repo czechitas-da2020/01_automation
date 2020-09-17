@@ -66,3 +66,7 @@ Spec Files:      1 passed, 1 total (100% completed) in 00:00:08
 
 Pokud toto vidíš, tak skvěle! Jsi připravena testy přidávat, testy upravovat a profitovat z toho :) 
 Pokud toto nevidíš (nebo máš jakékoliv dotazy), tak se neboj napsat na Slack do kanálu **#05_automatizovane_testovani**. 
+
+
+### Odkazy a zdroje
+* [webdriverIO dokumentace](https://webdriver.io/docs/gettingstarted.html)  
