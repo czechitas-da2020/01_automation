@@ -6,7 +6,7 @@ Základní nastavení WebdriverIO s podporu autocomplete do VSCode. Obsahuje jed
 ### Požadavky
 * nainstalovaný git
 * nainstalované [nodejs](https://nodejs.org/en/) 
-  * Můžete zkontrolovat v terminálu příkazem `node -v`
+  * Můžete zkontrolovat v terminálu (= příkazový řádek) příkazem `node -v`
 * webový prohlížeč [Chrome](https://www.google.com/intl/cs_CZ/chrome/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -16,7 +16,7 @@ Základní nastavení WebdriverIO s podporu autocomplete do VSCode. Obsahuje jed
 2. Stáhni si repozitář do svého počítače pomocí `git clone git@github.com:czechitas-da2020/01_automation.git`
 3. V daném adresáři pusť `npm install` 
     * Tenhle příkaz Ti nainstaluje všechny potřebné balíčky, které pak budeme používat. 
-3. Otevři si VSCode a otevři v něm repozitář - `Dokumenty/czechitas/automatizace/01_automation`
+3. Otevři si VSCode a otevři v něm danou složku - `Dokumenty/czechitas/automatizace/01_automation`
 
 ### Struktura repozitáře
 Po instalaci bys měla vidět v levém panelu několik souborů a složek. Pojďme si je vysvětlit, které jsou pro nás důležité:
@@ -67,6 +67,16 @@ Spec Files:      1 passed, 1 total (100% completed) in 00:00:08
 Pokud toto vidíš, tak skvěle! Jsi připravena testy přidávat, testy upravovat a profitovat z toho :) 
 Pokud toto nevidíš (nebo máš jakékoliv dotazy), tak se neboj napsat na Slack do kanálu **#05_automatizovane_testovani**. 
 
+
+### Pojmy 
+
+#### timeouty
+
+Timeout - Je čas většinou nasatevený v sekundách, po který program bude čekat na nějakou operaci.
+
+* Příklad: Timeout pro načtení webovké stránky je 10s
+* Pokud se do 10s webová stránka načte, nic se nestane
+* Pokud se do 10s webová stránka nenačte, program zahlasi chybu
 
 ### Odkazy a zdroje
 * [webdriverIO dokumentace](https://webdriver.io/docs/gettingstarted.html)  
